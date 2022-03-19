@@ -1,0 +1,19 @@
+{
+  "name": "sunxyw/weather",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sunxyw\\Weather\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "sunxyw",
+      "email": "xy2496419818@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  }
+}
