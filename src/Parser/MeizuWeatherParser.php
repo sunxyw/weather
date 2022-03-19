@@ -46,6 +46,8 @@ class MeizuWeatherParser implements WeatherParserInterface
 
         $weathers = $data['weathers'];
         $forecast_daily = [];
+        array_shift($weathers);
+        array_pop($weathers);
         foreach ($weathers as $item) {
             $forecast_daily[] = [
                 'date' => $item['date'],
